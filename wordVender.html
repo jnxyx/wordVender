@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>yun</title>
+    <style type="text/css">
+    div {
+        width: 1000px;
+        height: 300px;
+        overflow: hidden;
+        border: 1px solid #000000;
+        position:relative;
+    }
+    
+    div>p {
+        display: block;
+        width: 20px;
+        height: 300px;
+        float: right;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/wordVender.js"></script>
+<script type="text/javascript">
+var options = {
+    //fontSize: '20px',
+    words: ['金寄水是多尔衮的第十一世嫡孙，如果不是时势变迁和家道衰败的话，金寄水是手拿把攥要袭爵的。',
+            '按照民俗专家金受申的说法，是“有资格从王府接到宫中当皇上的”的主儿，他也确实在王府中当了近十年的“世子”②，虚龄10岁时曾“恭代”其伯父在除夕家祭与清明扫墓中担当主祭，有过当王爷的体验，出府八对宫灯引路，郊游四辆汽车跟随。',
+            '金寄水的父亲死于1923年，其伯父中铨又于1931年因盗卖祖坟里的陪葬品被判徒刑，下了大狱。',
+            '所以，自从金寄水1925年随全家迁出王府后，就不断搬家，房子越住越小，乃至成年便只能居于斗室之中靠卖文为生了，可是，他活得潇洒。',
+            '“九一八”事变后，在日本侵略者扶植下，溥仪当上了伪满洲国的皇帝，成了民族罪人。',
+            '一些丧失民族气节的皇族贵胄跑到伪满洲国去讨封，然而，金寄水却不为所动，并写诗言志:“午夜扪心问，行藏只自知；此心如皎日，大地定无私。',
+            '”沈彭年是这样描写金寄水当年在东单三条24号居室的:“在这个院落的小小后院里，有一间依靠西墙南墙形成的直角搭盖起来的小坡屋。',
+            '小窗小门，货真价实的斗室。',
+            '住着清代开国元勋睿忠亲王多尔衮的‘末代世子’金寄水。',
+            '金寄水，他把日本鬼子的威胁利诱置之潇洒的一笑，说什么也不去祖宗发祥地的白山黑水之间充当‘世袭亲王’。',
+            '他挺着一身穷而硬的瘦骨头，在北京卖文为生，潇洒地挺到解放大军浩浩荡荡开进了北京城。”'
+            ],
+    speed: 200
+}
+$('#container').wordVender(options);
+</script>
+
+</html>
